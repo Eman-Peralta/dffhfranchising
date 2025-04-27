@@ -1,0 +1,54 @@
+.container {
+  padding: 30px auto;
+  text-align: center;
+  width: 100%;
+  font-size: x-large;
+}
+
+.container img {
+  padding: 30px auto;
+}
+
+.why-choose-us {
+  font-size: x-large;
+  padding: 30px auto;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.why-choose-us img {
+  margin: 40px 0;
+  border-radius: 15px;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px auto;
+    font-size: large;
+    margin: 30px auto;
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .why-choose-us {
+    width: 90%;
+    font-size: large;
+  }
+
+  .why-choose-us img {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
